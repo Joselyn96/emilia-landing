@@ -96,7 +96,7 @@ export default function Realidad() {
                 onClick={prevImage}
                 className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/70 hover:bg-white text-2xl rounded-full w-8 h-8 flex items-center justify-center shadow-md"
               >
-                &#8592;
+              <span className="-mt-0.5">&#8592;</span>
               </button>
 
               {/* Right Arrow */}
@@ -104,7 +104,7 @@ export default function Realidad() {
                 onClick={nextImage}
                 className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/70 hover:bg-white text-2xl rounded-full w-8 h-8 flex items-center justify-center shadow-md"
               >
-                &#8594;
+                <span className="-mt-0.5">&#8594;</span>
               </button>
 
               {/* Slide Indicator */}
