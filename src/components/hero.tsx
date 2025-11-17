@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <section id="inicio" className="w-full py-16 md:py-24 lg:py-32 px-4 bg-gradient-to-b from-primary/5 to-background">
+        <section id="inicio" className="w-full py-16 md:py-24 lg:py-32 px-4 bg-gradient-to-b from-primary/5 to-background opacity-0 animate-fadeInUp">
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                     <div className="space-y-6">
