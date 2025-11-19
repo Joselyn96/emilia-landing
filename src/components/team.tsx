@@ -1,5 +1,3 @@
-import { Users } from "lucide-react"
-
 export default function Team() {
   const teamMembers = [
     {
