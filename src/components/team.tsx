@@ -10,21 +10,21 @@ export default function Team() {
     },
     {
       name: "James",
-      role: "Diseño y ensamblaje de la pulsera inteligente",
+      role: "Desarrollador IoT",
       bio: "Estudiante de Ingeniería Mecatrónica",
-      photo: "",
+      photo: "james_photo.jpg",
     },
-    {
-      name: "Virgin",
-      role: "Desarrolladora IoT",
-      bio: "Estudiante de Ingeniería Mecatrónica",
-      photo: "",
-    },
+    // {
+    //   name: "Virgin",
+    //   role: "Desarrolladora IoT",
+    //   bio: "Estudiante de Ingeniería Mecatrónica",
+    //   photo: "",
+    // },
     {
       name: "Joselyn",
       role: "Desarrolladora Web",
       bio: "Estudiante de Ingeniería de Sistemas",
-      photo: "",
+      photo: "jve_photo.jpg",
     },
   ]
 
@@ -35,7 +35,7 @@ export default function Team() {
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-left">Nuestro Equipo</h2>
            <div className="w-20 h-1 bg-primary rounded-full"></div>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20 mt-12 ">
           {teamMembers.map((member, index) => (
             <div
               key={index}
@@ -43,7 +43,7 @@ export default function Team() {
                      text-center flex flex-col items-center"
             >
               {/* Foto del miembro */}
-              {/* {member.photo && (
+              {member.photo && (
             <div className="w-28 h-28 rounded-full mb-4 overflow-hidden">
               <img
                 src={member.photo}
@@ -51,10 +51,10 @@ export default function Team() {
                 className="w-full h-full object-cover"
               />
             </div>
-          )} */}
-              <div className="w-16 h-16 bg-primary/10 rounded-full mb-4 mx-auto flex items-center justify-center">
+          )} 
+              {/* <div className="w-16 h-16 bg-primary/10 rounded-full mb-4 mx-auto flex items-center justify-center">
                 <Users className="w-8 h-8 text-primary" />
-              </div>
+              </div> */}
 
               <h3 className="text-xl font-bold text-foreground mb-1">{member.name}</h3>
               {member.role && <p className="text-sm font-medium text-primary mb-2">{member.role}</p>}
