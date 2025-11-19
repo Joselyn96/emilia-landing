@@ -2,7 +2,7 @@ export default function Team() {
   const teamMembers = [
     {
       name: "Sara Choque",
-      role: "Lider",
+      role: "Directora General",
       bio: "Estudiante de Ingeniería Mecatrónica",
       photo: "sara-lider.jpeg",
     },
