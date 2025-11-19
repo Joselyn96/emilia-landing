@@ -3,13 +3,13 @@ import { Users } from "lucide-react"
 export default function Team() {
   const teamMembers = [
     {
-      name: "Sara",
+      name: "Sara Choque",
       role: "Lider",
       bio: "Estudiante de Ingeniería Mecatrónica",
       photo: "sara-lider.jpeg",
     },
     {
-      name: "James",
+      name: "James Aguilar",
       role: "Desarrollador IoT",
       bio: "Estudiante de Ingeniería Mecatrónica",
       photo: "james_photo.jpg",
@@ -21,7 +21,7 @@ export default function Team() {
     //   photo: "",
     // },
     {
-      name: "Joselyn",
+      name: "Joselyn Valverde",
       role: "Desarrolladora Web",
       bio: "Estudiante de Ingeniería de Sistemas",
       photo: "jve_photo.jpg",
